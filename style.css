@@ -1140,6 +1140,9 @@ footer {
   #contact .section-inner { padding-top: 72px; }
   #about .section-inner { padding-top: 72px; }
   #product .section-inner { padding-top: 92px; }
+   #home {
+    overflow-x: hidden; /* ← tambahkan ini */
+  }
 
   .hero {
     padding: 88px 20px 48px;
