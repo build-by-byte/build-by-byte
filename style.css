@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5 {
   /* Full-width background — gradient rata ke seluruh layar */
   position: relative;
   background: #040F16;
-  overflow: visible; /* orb boleh melebar, tapi tidak scroll horizontal */
+  overflow: fixed; /* orb boleh melebar, tapi tidak scroll horizontal */
   min-height: 100vh; /* ganti jadi min-height bukan height */
   height: auto;      /* tambahkan ini */
 }
